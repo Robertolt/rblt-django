@@ -11,6 +11,6 @@ env:
 install:
   - pip install -q pipenv codecov
   - pipenv sync --dev
+
 script:
   - pipenv run flake8 .
-
