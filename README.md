@@ -25,4 +25,6 @@ applying django in a real project
 --create Procfile text file with web: gunicorn pyrblt.wsgi ==log=file =
 -pipenv install gunicorn
 --heroku apps:create name()
-
+-git push heroku main -f
+-heroku config:set DISABLE_COLLECTSTATIC=1
+-heroku open
