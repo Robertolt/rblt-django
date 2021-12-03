@@ -18,3 +18,11 @@ applying django in a real project
 -pipenv sync -d
 -activating virtual env: pipenv shell (4 exit: "exit")
 --run cmds in virtual env: pipenv run ......
+--pipenv shell -> django-admin -> django-admin startproject pyrblt .
+--to test django installation python manage.py runserver
+--edit .bashrc (cat .bashrc) and add python manage.py runserver
+--install heroku
+--create Procfile text file with web: gunicorn pyrblt.wsgi ==log=file =
+-pipenv install gunicorn
+--heroku apps:create name()
+

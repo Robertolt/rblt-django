@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 flake8 = "*"
 django = "*"
+gunicorn = "*"
 
 [dev-packages]
 flake8 = "*"
