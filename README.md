@@ -28,3 +28,5 @@ aplication available on https://pyrbltdjango.herokuapp.com/
 -git push heroku main -f
 -heroku config:set DISABLE_COLLECTSTATIC=1
 -heroku open
+--cd pyrblt/
+-mng startapp base
