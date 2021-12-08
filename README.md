@@ -28,5 +28,9 @@ aplication available on https://pyrbltdjango.herokuapp.com/
 -git push heroku main -f
 -heroku config:set DISABLE_COLLECTSTATIC=1
 -heroku open
+--Running Django server throug config
+-Django server named as django
+-localhost
+-fix: folder and enable access to folder 'settings' and do not django test runner
 --cd pyrblt/
 -mng startapp base
