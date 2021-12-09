@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flake8 = "*"
 django = "*"
 gunicorn = "*"
+heroku = "*"
 
 [dev-packages]
 flake8 = "*"
