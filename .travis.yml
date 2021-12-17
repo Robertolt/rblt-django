@@ -14,4 +14,7 @@ install:
 
 script:
   - pipenv run flake8
-  - pipenv run pytest
+  - pipenv run pytest --cov=pyrblt
+
+after_success:
+  - pipenv run codecov
