@@ -35,8 +35,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 # Application definition
 
-STATICFILES_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
-COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -152,6 +151,7 @@ if AWS_ACCESS_KEY_ID:
     AWS_CUSTOM_DOMAIN = None
 
     COLLECTFAST_ENABLE = True
+    COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
 
     AWS_DEFAULT_ACL = 'private'
 
