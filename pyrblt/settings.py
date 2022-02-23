@@ -190,7 +190,7 @@ if AWS_ACCESS_KEY_ID:
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SENTRY_DSN=config('SENTRY_DSN', default=None)
+SENTRY_DSN = config('SENTRY_DSN', default=None)
 
 if SENTRY_DSN:
     sentry_sdk.init(dsn=SENTRY_DSN, integrations=[DjangoIntegration()])
