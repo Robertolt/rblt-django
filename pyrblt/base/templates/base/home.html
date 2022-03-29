@@ -34,7 +34,7 @@
   </div>
 </nav>
 
-    <div class="container-fluid">
+    <div class="container">
 	<div class="row">
 		<div class="col-md-12">
 
@@ -100,7 +100,7 @@
                             <img src="{% static 'img/robertolt.png' %}" class="img-thumbnail float-lg-start me-3"
                                  alt="Foto de Robertolt"/>
                             Robertolt é entusiasta de tecnologia e gosta muito de programação, sempre teve como objetivo
-                            ser programador. Atualmente, faz engenharia elétrica enquando vai atrás do sonho de ser dev.
+                            ser programador. Atualmente, faz engenharia elétrica.
 							</p>
 						</div>
 						</div>
@@ -111,6 +111,29 @@
 	</div>
 </div>
 
+<footer class="main-footer mt-5 pt-4 text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Entre em Contato</h3>
+                <address>
+                    +55 999-812-523
+                    <br/>
+                    <a href="mailto:robertolt@hidra.desenvolvimento.br">robertolt@hidra.desenvolvimento.br</a>
+                </address>
+            </div>
+        </div>
+    </div>
+    <div class="rights pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    {% now 'Y' %} Hidra Desenvolvimento. Todos os direitos reservados.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
   </body>
 </html>
