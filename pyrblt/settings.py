@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'collectfast',
     'django.contrib.staticfiles',
     'pyrblt.base',
+    'pyrblt.aperitivos',
 ]
 
 MIDDLEWARE = [
