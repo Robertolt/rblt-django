@@ -25,7 +25,7 @@ jobs:
           pipenv run flake8
       - name: Teste de código com pytest
         run: |
-          pytest rblt-django --cov=rblt-django
+          pipenv run pytest --cov=pyrblt
       - name: Cobertura de testes com codecov
         env:
             CODECOV_TOKEN: ${{secrets.CODECOV_TOKEN}}
