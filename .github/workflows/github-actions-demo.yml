@@ -22,7 +22,7 @@ jobs:
           cp contrib/env-sample .env
       - name: Lint com flake8
         run: |
-          flake8
+          pipenv run flake8
       - name: Teste de código com pytest
         run: |
           pytest rblt-django --cov=rblt-django
