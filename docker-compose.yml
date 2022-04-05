@@ -2,14 +2,14 @@ version: "3.8"
 
 services:
   database:
-    container_name: rblt-django_database
+    container_name: rbltdjango_database
     image: postgres
     restart: always
     volumes:
       - ./.pgdata:/var/lib/postgresql/data
     environment:
-      - LC_ALL=C.UTF=8
-      - POSTGRES_PASSWORD=rblt-django
-      - POSTGRES_USER=rblt-django
+      - LC_ALL=
+      - POSTGRES_PASSWORD=rbltdjango
+      - POSTGRES_USER=rbltdjango
     ports:
       - "5434:5432"
