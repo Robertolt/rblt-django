@@ -23,18 +23,18 @@ def resp_video_nao_encontrado(client, video):
 
 
 def test_status_code_video_nao_encontrado(resp_video_nao_encontrado):
-    assert resp.status_code == 404
+    assert resp_video_nao_encontrado.status_code == 404
 
 
 def test_status_code(resp):
-    assert resp_video_nao_encontrado.status_code == 200
+    assert resp.status_code == 200
 
 
 def test_titulo_video(resp, video):
     assert_contains(resp, video.titulo)
 
 
-def test_conteudo_video(resp):
+def test_conteudo_video(resp, video):
     assert_contains(resp, '<div style="padding:75% 0 0 0;position:relative;"><iframe '
                           f'src="https://player.vimeo.com/video/{video.vimeo_id}?h=4451873560&amp;badge=0&amp"'
                           ';autopause=0&amp '
