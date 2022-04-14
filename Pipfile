@@ -22,6 +22,7 @@ pytest-mock = "*"
 pytest = "*"
 pytest-django = "*"
 codecov = "*"
+model-mommy = "*"
 
 [requires]
 python_version = "3.9"
