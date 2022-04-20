@@ -3,12 +3,12 @@ from django.urls import reverse
 
 from pyrblt.aperitivos.models import Video
 from pyrblt.django_assertions import assert_contains
-from model_mommy import mommy
+from model_bakery import baker
 
 
 @pytest.fixture
 def video(db):
-    return mommy.make(Video)
+    return baker.make(Video)
 
 
 @pytest.fixture

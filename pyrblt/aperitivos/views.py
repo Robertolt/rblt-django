@@ -2,15 +2,9 @@ from django.shortcuts import render, get_object_or_404
 
 from pyrblt.aperitivos.models import Video
 
-videos = [
-    Video(slug='motivacao', titulo='Vídeo Aperitivo: Motivação', vimeo_id='694576600'),
-    Video(slug='instalacao-windows', titulo='Instalando Windows', vimeo_id='695012786'),
-    ]
-
-videos_dct = {v.slug: v for v in videos}
-
 
 def indice(request):
+    videos = Video.objects.order_by('creation').all()
     return render(request, 'aperitivos/indice.html', context={'videos': videos})
 
 

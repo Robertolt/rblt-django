@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c15fa0ef139e42950d43baa706959ebd629f6d3cf93f0b8d7f43644145606640"
+            "sha256": "36f30457b0574de4a4d396283ed0b72b18929cf28dd1c74b4418bab13e55ced7"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -26,19 +26,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:56425debf5f1fd2cf5494d9cb110b2a977453888f071898a12e6ab64bdd41796",
-                "sha256:b709cb65ffc4e3f78c590145e2dee40758056c9edafb9ee692f67d170855dfc3"
+                "sha256:895fb88c69be78f82cfee58a79c97a3ad8d4a2a1209041a411d7d6b9fc5393e4",
+                "sha256:bcb541175a7d190dd919a0af0e807ee6e9d26f135551e741b10d94343f2d7588"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.21.39"
+            "version": "==1.21.42"
         },
         "botocore": {
             "hashes": [
-                "sha256:94f50a544003918270ba726eb5652b2c31f6cb34accbf25e053ed6ea97ecf1fd",
-                "sha256:a0883dfe8b81689060af7bb2ca4ce3048b954b25bef4ed712c6760ce3da51485"
+                "sha256:14aee41c8bf59d2dd2d89e8751fa37d3c95dcb92707d1966aa02697e914c1417",
+                "sha256:a2baa9484bbaee96ef312c049b8e360badcab58329e487b57567644a571b5f4a"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.24.39"
+            "version": "==1.24.42"
         },
         "certifi": {
             "hashes": [
@@ -198,11 +198,11 @@
         },
         "sentry-sdk": {
             "hashes": [
-                "sha256:02c0f79941964297341c14d53e4df09a81c949707bd91e2d5e66b565aad75c8b",
-                "sha256:afd9f92711556739172f3bc845a02fc921ca1560bee974ae65072ef6a30e3921"
+                "sha256:0a9eb20a84f4c17c08c57488d59fdad18669db71ebecb28fb0721423a33535f9",
+                "sha256:972c8fe9318a415b5cf35f687f568321472ef94b36806407c370ce9c88a67f2e"
             ],
             "index": "pypi",
-            "version": "==1.5.9"
+            "version": "==1.5.10"
         },
         "setuptools": {
             "hashes": [
@@ -371,13 +371,13 @@
             ],
             "version": "==0.6.1"
         },
-        "model-mommy": {
+        "model-bakery": {
             "hashes": [
-                "sha256:3d332afce941c57f1990f45b083ba13252ba74fcd1ae43fd047e5af7a70fb312",
-                "sha256:40d6e740aad7509e696a324b94cf2b0a104da93c3d4a7924cea1be3d0eb95b4f"
+                "sha256:e4e09e1c536e3b7d5e7a827d4d1ccd4540dea56062d766b506d86067d3a94dea",
+                "sha256:ed533de56df7af4f08f786f82532802f994e2ef01d8366ec4fe6d588585d8ac7"
             ],
             "index": "pypi",
-            "version": "==2.0.0"
+            "version": "==1.5.0"
         },
         "packaging": {
             "hashes": [
