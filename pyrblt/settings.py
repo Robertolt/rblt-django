@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'pyrblt.base',
     'pyrblt.aperitivos',
+    'pyrblt.modulos',
 ]
 
 MIDDLEWARE = [
