@@ -9,4 +9,3 @@ class VideoAdmin(ModelAdmin):
     list_display = ('titulo', 'slug', 'vimeo_id')
     ordering = ('creation',)
     prepopulated_fields = {'slug': ('titulo',)}
-
