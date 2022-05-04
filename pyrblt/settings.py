@@ -52,6 +52,8 @@ INSTALLED_APPS = [
     'pyrblt.base',
     'pyrblt.aperitivos',
     'pyrblt.modulos',
+    'ordered_model',
+
 ]
 
 MIDDLEWARE = [
@@ -77,6 +79,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'pyrblt.modulos.context_processors.listar_modulos',
             ],
         },
     },
