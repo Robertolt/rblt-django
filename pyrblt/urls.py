@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('pyrblt.base.urls')),
     path('aperitivos/', include('pyrblt.aperitivos.urls')),
+    path('modulos/', include('pyrblt.modulos.urls')),
 ]
 
 if settings.DEBUG:
