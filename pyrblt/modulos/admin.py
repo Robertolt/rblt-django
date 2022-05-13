@@ -1,5 +1,6 @@
 from django.contrib import admin
 from pyrblt.modulos.models import Modulo, Aula
+from ordered_model.admin import OrderedModelAdmin
 
 
 @admin.register(Modulo)
