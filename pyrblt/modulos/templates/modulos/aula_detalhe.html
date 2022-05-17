@@ -1,0 +1,15 @@
+{%  extends 'base/base.html' %}
+{% load static %}
+{% block title %}Robertolt - Aperitivo{% endblock title %}
+{% block description %}Vídeo no site gratuito{% endblock description %}
+{% block body%}
+     <div class="container">
+	<div class="row">
+		<div class="mt-4 mb-3 col-md-12">
+            <h1>{{ aula.titulo | default:"faltando Título" }}</h1>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{ aula.vimeo_id }}"></iframe></div>
+        </div>
+	</div>
+</div>
+
+{% endblock body %}
