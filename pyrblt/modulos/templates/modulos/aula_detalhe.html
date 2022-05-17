@@ -3,6 +3,14 @@
 {% block title %}Robertolt - Aperitivo{% endblock title %}
 {% block description %}Vídeo no site gratuito{% endblock description %}
 {% block body%}
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ aula.modulo.get_absolute_url }}">{{ aula.modulo.titulo }}</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ aula.titulo }}</li>
+      </ol>
+    </nav>
+
      <div class="container">
 	<div class="row">
 		<div class="mt-4 mb-3 col-md-12">

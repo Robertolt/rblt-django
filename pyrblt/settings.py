@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'pyrblt.aperitivos',
     'pyrblt.modulos',
     'ordered_model',
+    'django_extensions',
 
 ]
 
