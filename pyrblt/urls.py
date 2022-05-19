@@ -23,6 +23,7 @@ urlpatterns = [
     path('', include('pyrblt.base.urls')),
     path('aperitivos/', include('pyrblt.aperitivos.urls')),
     path('modulos/', include('pyrblt.modulos.urls')),
+    path('turmas/', include('pyrblt.turmas.urls')),
 ]
 
 if settings.DEBUG:
